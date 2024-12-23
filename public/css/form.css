@@ -1,0 +1,49 @@
+.form {
+    width: 100%;
+}
+
+.form input,
+.form textarea {
+    width: 40%;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    height: 200px;
+    resize: none;
+}
+
+.form .btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    background: #ff5644;
+    color: #fff;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+.form .btnDel {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.btn:hover {
+    transition: all 600ms ease;
+    transform: scale(1.05) translateY(-5px);
+}
+
+.form .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
